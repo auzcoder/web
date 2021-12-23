@@ -310,6 +310,10 @@ export class AppState {
     return this.tags.selected;
   }
 
+  public set selectedTag(tag: SNTag | SNSmartTag | undefined) {
+    this.tags.selected = tag;
+  }
+
   streamNotesAndTags() {
     this.application.streamItems(
       [ContentType.Note, ContentType.Tag],
