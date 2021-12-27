@@ -286,8 +286,7 @@ export class AppState {
         return;
       }
 
-      // TODO: fix this bug at snjs level.
-      if (!tag.isSmartTag && this.application.isTemplateItem(tag)) {
+      if (this.application.isTemplateItem(tag)) {
         return;
       }
 
