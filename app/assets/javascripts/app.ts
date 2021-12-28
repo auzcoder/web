@@ -26,8 +26,10 @@ import { PinNoteButtonDirective } from '@/components/PinNoteButton';
 import { AppVersion, IsWebPlatform } from '@/version';
 import {
   ApplicationGroupView,
-  ApplicationView, ChallengeModal,
-   FooterView, NoteGroupViewDirective,
+  ApplicationView,
+  ChallengeModal,
+  FooterView,
+  NoteGroupViewDirective,
   NoteViewDirective,
 } from '@/views';
 import { SNLog } from '@standardnotes/snjs';
@@ -55,7 +57,7 @@ import {
   infiniteScroll,
   lowercase,
   selectOnFocus,
-  snEnter
+  snEnter,
 } from './directives/functional';
 import {
   ActionsMenu,
@@ -67,7 +69,7 @@ import {
   PasswordWizard,
   PermissionsModal,
   RevisionPreviewModal,
-  SyncResolutionMenu
+  SyncResolutionMenu,
 } from './directives/views';
 import { trusted } from './filters';
 import { PreferencesDirective } from './preferences';
